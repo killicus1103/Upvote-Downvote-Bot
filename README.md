@@ -21,4 +21,8 @@ example auth.json
 }
  ```
  
- to generate a token, contact me.
+ to generate a token, go to https://discordapp.com/developers/ , sign in, click **Create App**
+ 
+ next click on the bot page of the app, and click **Add Bot**
+ 
+ after creating a bot, it should show 'Token' below the username, and you can click copy.
