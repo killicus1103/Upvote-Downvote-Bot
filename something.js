@@ -14,7 +14,7 @@ client.on('message', message => {
 		const emojiTwo = message.guild.emojis.find(emoji => emoji.name === '9975_downvote');
 		message.react(emoji)
 		.then(() => message.react(emojiTwo))
-		.catch(() => console.error('Oops! One reaction failed, please try again'));
+		.catch(() => message.channel.send('Your\'re reaction is bad and you should feel bad'));
 	} else if (message.content === '!upvotehelp') {
 		message.channel.send('`!ping` Pings bot, sends message back \n`!ud (text)`  Adds upvote and downvote reactions \n`!upvotehelp`  Shows this');
 	}
